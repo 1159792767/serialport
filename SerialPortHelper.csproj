@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>SerialPortHelper</RootNamespace>
+    <AssemblyName>SerialPortHelper</AssemblyName>
+    <ApplicationIcon></ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="10.0.12" />
+  </ItemGroup>
+  <ItemGroup Label="TeamUpdaterWizard">
+    <PackageReference Include="Team.DesktopUpdater.1159792767" Version="0.2.0" />
+    <None Update="TeamUpdater.Generated/updater-settings.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" TargetPath="updater-settings.json" />
+  </ItemGroup>
+  <PropertyGroup Label="TeamUpdaterWizard">
+    <RestoreAdditionalProjectSources>$(RestoreAdditionalProjectSources);$(MSBuildProjectDirectory)/TeamUpdater.Generated</RestoreAdditionalProjectSources>
+  </PropertyGroup>
+  <PropertyGroup Label="TeamUpdaterWizard">
+    <RestoreAdditionalProjectSources>$(RestoreAdditionalProjectSources);https://raw.githubusercontent.com/1159792767/Public-Library/main/feed/index.json</RestoreAdditionalProjectSources>
+  </PropertyGroup>
+</Project>

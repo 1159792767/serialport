@@ -1,0 +1,9 @@
+﻿.vs/
+bin/
+obj/
+*.user
+*.suo
+TeamUpdater.Generated/
+.team-updater.json
+.github/
+scripts/
