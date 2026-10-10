@@ -1,0 +1,4 @@
+在主窗口 InitializeComponent(); 后添加 TeamUpdaterBootstrap.Attach(this);
+更新地址：https://updates.invalid/app-eecc95038da9494c8df5197d61e91577/update.json
+服务器未配置。updates.invalid 不可用于真实更新。管理员需替换 JSON 配置。
+撤销：移除 csproj 中两个 Label=TeamUpdaterWizard 的 XML 组和 Attach 行，再移除生成目录。project.original 为安装前备份，请勿覆盖后续编辑。
