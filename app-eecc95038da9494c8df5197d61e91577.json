@@ -1,11 +1,12 @@
 {
-  "version": "2.0.1",
-  "url": "https://github.com/1159792767/serialport/releases/download/app-eecc95038da9494c8df5197d61e91577-v2.0.1-a1/app-eecc95038da9494c8df5197d61e91577-2.0.1.zip",
-  "sha256": "17775a1a83f162989c17ff2e34667d9396fc58fc659ef2c623858c32496666de",
-  "notes": "Public packages: {\"Team.DesktopUpdater.1159792767\": \"0.2.0\"}",
-  "buildFingerprint": "70af7bb9abaa6193ed3201cd0d65a48304133564b6e20989b88b9bc7d694688d",
+  "version": "2.0.2",
+  "url": "https://github.com/1159792767/serialport/releases/download/app-eecc95038da9494c8df5197d61e91577-v2.0.2-a1/app-eecc95038da9494c8df5197d61e91577-2.0.2.zip",
+  "sha256": "546d9d9c9362fd8893e5b9d40e256ed522b9bcfda8a211d40488b7c831dc367d",
+  "notes": "Public packages: {\"Demo.Common.1159792767\": \"1.0.4\", \"Team.DesktopUpdater.1159792767\": \"0.2.0\"}",
+  "buildFingerprint": "ba64cab6cc26fafe1ebe737eccfc28184b36d2da0ad69597026ba0dd4f4bba51",
   "packages": {
+    "Demo.Common.1159792767": "1.0.4",
     "Team.DesktopUpdater.1159792767": "0.2.0"
   },
-  "sourceCommit": "4eb728251281619cb4341d93d5963c0766e51f21"
+  "sourceCommit": "3a7f935da7472cea92bf209f796cf54e2e524a4a"
 }
