@@ -1,0 +1,10 @@
+{
+  "project": "SerialPortHelper.csproj",
+  "publicRepo": "1159792767/Public-Library",
+  "projectRepo": "1159792767/serialport",
+  "appId": "app-eecc95038da9494c8df5197d61e91577",
+  "runtime": "win-x64",
+  "entryExe": "SerialPortHelper.exe",
+  "releaseMajor": 2,
+  "testProjects": []
+}

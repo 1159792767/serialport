@@ -1,0 +1,27 @@
+name: Automatic public package delivery
+on:
+  push:
+    branches: ["master"]
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: team-updater-channel
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Resolve, test and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/auto_release.py .team-updater.json
