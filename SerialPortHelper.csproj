@@ -12,6 +12,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.IO.Ports" Version="10.0.12" />
+   <PackageReference Include="Demo.Common.1159792767" Version="1.0.3" />
   </ItemGroup>
   <ItemGroup Label="TeamUpdaterWizard">
     <PackageReference Include="Team.DesktopUpdater.1159792767" Version="0.2.0" />
@@ -23,4 +24,5 @@
   <PropertyGroup Label="TeamUpdaterWizard">
     <RestoreAdditionalProjectSources>$(RestoreAdditionalProjectSources);https://raw.githubusercontent.com/1159792767/Public-Library/main/feed/index.json</RestoreAdditionalProjectSources>
   </PropertyGroup>
+	 
 </Project>
