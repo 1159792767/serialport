@@ -1,0 +1,11 @@
+{
+  "version": "2.0.1",
+  "url": "https://github.com/1159792767/serialport/releases/download/app-eecc95038da9494c8df5197d61e91577-v2.0.1-a1/app-eecc95038da9494c8df5197d61e91577-2.0.1.zip",
+  "sha256": "17775a1a83f162989c17ff2e34667d9396fc58fc659ef2c623858c32496666de",
+  "notes": "Public packages: {\"Team.DesktopUpdater.1159792767\": \"0.2.0\"}",
+  "buildFingerprint": "70af7bb9abaa6193ed3201cd0d65a48304133564b6e20989b88b9bc7d694688d",
+  "packages": {
+    "Team.DesktopUpdater.1159792767": "0.2.0"
+  },
+  "sourceCommit": "4eb728251281619cb4341d93d5963c0766e51f21"
+}
